@@ -1,0 +1,14 @@
+[autogen]
+/build/!README
+/build/*
+/doc/api
+/.sublime-project.sublime-workspace
+/tests.html
+/tmp/*
+!/tmp/.gitkeep
+/doc
+
+[env]
+/.grunt/
+/node_modules/
+*.swp
