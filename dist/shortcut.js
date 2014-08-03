@@ -365,7 +365,7 @@ define('shortcut', ['require','jquery','shortcut/constants'],function(require) {
     keyBindings[keyBinding].unshift({
       id: id,
 
-      callback: callback.bind(options.context),
+      callback: options.context ? callback.bind(options.context) : callback,
       options: options,
 
       // we need these to properly remove the binding if necessary
@@ -395,6 +395,8 @@ define('shortcut', ['require','jquery','shortcut/constants'],function(require) {
    */
   Shortcut.remove = function(keyBinding, callback, options) {
     var context;
+
+    keyBindings[keyBinding] = keyBindings[keyBinding] || [];
 
     if (!callback) {
       keyBindings[keyBinding] = [];

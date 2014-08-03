@@ -1,7 +1,7 @@
 {
   "name": "shortcut",
-  "description": "JavaScript implementation of the Psync protocol.",
-  "version": "1.1.6",
+  "description": "Manage application-wide keybindings.",
+  "version": "1.0.0",
   "homepage": "https://github.com/amireh/shortcut-js",
   "author": {
     "name": "Ahmad Amireh",
