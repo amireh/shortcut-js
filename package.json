@@ -1,7 +1,7 @@
 {
   "name": "shortcut",
   "description": "Manage application-wide keybindings.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/amireh/shortcut-js",
   "author": {
     "name": "Ahmad Amireh",
